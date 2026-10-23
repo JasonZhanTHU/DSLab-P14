@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+*.xlsx
+*.csv
+.*_backups/
+# exam workspaces hold submissions and results
+data/cli/*/evals/
+data/cli/*/RawExams/

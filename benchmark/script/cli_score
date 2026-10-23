@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Score every workspace in data/cli with src/scoring/score_exams.py (args pass through, e.g. --check).
+# Reads credentials from benchmark/.env (copy .env.example); each exam_config.json needs approved_for_scoring=true.
+set -euo pipefail
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PY="$D/.venv/bin/python"; [ -x "$PY" ] || PY=python3
+[ -f "$D/.env" ] && { set -a; . "$D/.env"; set +a; }
+for c in "$D"/data/cli/*/exam_config.json; do echo "== $(basename "$(dirname "$c")")"; "$PY" "$D/src/scoring/score_exams.py" --config "$c" "$@"; done

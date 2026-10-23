@@ -1,0 +1,13 @@
+# erfa slugs	title	url	note (link only: not downloadable or not redistributable)
+kristalleundmineralien,grundlagendergesteinsmikroskopie	D. Perkins, Mineralogy (OpenGeology, UND; CC BY-NC-SA)	https://opengeology.org/Mineralogy/	Live web edition; the UND PDF blocks automated download: https://commons.und.edu/oers/20
+metamorphoseundmagmatismusi,metamorphoseundmagmatismusii,grundlagendergesteinsmikroskopie	D. Perkins et al., Petrology (OpenGeology, UND)	https://opengeology.org/petrology/	Open textbook: igneous and metamorphic petrology, phase diagrams
+grundlagendergesteinsmikroskopie,kristalleundmineralien	Brock University, Optical Mineralogy course notes (G. Finn)	https://brocku.ca/mathematics-science/earth-sciences/optical-mineralogy	PDFs on refractometry, uniaxial/biaxial indicatrix, interference colours (site blocks scripts)
+explorationandenvironmentalgeophysics,geophysikii	UBC, Geophysics for Practicing Geoscientists (GPG)	https://gpg.geosci.xyz/	Open online textbook: gravity, magnetics, DC resistivity, EM, GPR, seismic refraction
+reflectionseismologyprocessing,explorationandenvironmentalgeophysics	O. Yilmaz, Seismic Data Analysis (SEG Wiki)	https://wiki.seg.org/wiki/Seismic_Data_Analysis	Standard processing reference online: deconvolution, NMO, stacking, migration
+palontologie	Treatise on Invertebrate Paleontology (open access PDFs, KU)	https://journals.ku.edu/InvertebratePaleo	All 55 volumes as free PDFs (reference: brachiopods, molluscs, trilobites, corals)
+palontologie	UC Museum of Paleontology, Berkeley: Understanding fossils / taxon pages	https://ucmp.berkeley.edu/	Group-by-group overviews of fossil invertebrates
+geophysicalfluiddynamics	UCSD SIOC 212A Geophysical Fluid Dynamics (I. Eisenman)	https://eisenman.ucsd.edu/courses/2025-sioc212a/syllabus.html	Syllabus with evolving lecture notes, mapped to Vallis and Cushman-Roisin chapters
+atmosphre,klimasysteme	D. Jacob, Introduction to Atmospheric Chemistry (Harvard): lecture slides	https://acmg.seas.harvard.edu/education	Slides are open; 2nd-edition chapters password-protected
+seismologie	seismo-live (Jupyter notebooks)	https://github.com/krischer/seismo_live	Already cloned into seismologie/lecture_material/github/
+kryosphre,snowcoverphysicsandmodelling	SLF / EPFL ENV-525 Physics and Hydrology of Snow (course page)	https://edu.epfl.ch/coursebook/en/physics-and-hydrology-of-snow-ENV-525	Course outline (metamorphism, energy balance, SNOWPACK); no open notes
+rockmechanicsandrockengineering	Hoek's Corner (Rocscience): papers and chapter downloads	https://www.rocscience.com/learning/hoeks-corner	Full text already downloaded to _related/hoek_practical_rock_engineering

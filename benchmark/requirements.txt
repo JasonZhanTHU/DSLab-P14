@@ -1,0 +1,9 @@
+# Compatibility ranges, not a tested pin. Record `pip freeze` after a live pilot.
+anthropic            # run_model.py, grade.py
+openai>=2.0.0,<4.0.0 # score_exams.py (Azure / OpenAI-compatible)
+python-dotenv>=1.0.1,<2.0.0
+pypdf>=5.9.0,<7.0.0
+openpyxl>=3.1.5,<4.0.0
+reportlab>=4.4.0,<5.0.0   # rubric / submission PDFs (src/cli_scoring.py)
+pillow                    # clip redaction
+numpy                     # answer-key verification

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Offline unit tests of the scoring code (no network, no credentials).
+set -euo pipefail
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PY="${PYTHON:-$D/.venv/bin/python}"; [ -x "$PY" ] || PY=python3
+exec "$PY" -m unittest discover -s "$D/tests" -v "$@"

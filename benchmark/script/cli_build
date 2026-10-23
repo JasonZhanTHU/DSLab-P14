@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Toolkit format: cli_build [--tasks F] [--force]
+set -euo pipefail
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PY="${PYTHON:-$D/.venv/bin/python}"; [ -x "$PY" ] || PY=python3
+exec "$PY" "$D/src/cli_scoring.py" build "$@"

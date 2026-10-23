@@ -1,0 +1,14 @@
+# credentials / sessions
+apikey.txt
+cookies.txt
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+# scraped exams (login-protected archive) and everything derived from them: not for a public repo
+/data/
+/study/
+/benchmark/data/
+*.xlsx
+*.csv

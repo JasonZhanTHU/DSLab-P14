@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# inspect/normalize scanned PDFs (see docs/scoring)
+set -euo pipefail
+D="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+PY="${PYTHON:-$D/.venv/bin/python}"; [ -x "$PY" ] || PY=python3
+exec "$PY" "$D/src/scoring/normalize_exam_pdfs.py" "$@"
